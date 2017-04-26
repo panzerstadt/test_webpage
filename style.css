@@ -1,0 +1,71 @@
+/* style sheets are like dictionaries in python */
+
+body {
+	color: orange;
+	/*background: #D6DBB2;*/
+	font-family: 'Roboto', sans-serif;
+	/*background-image: ("laptop.png")8*/
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+a {
+	font-weight: lighter;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+/* when the mouse hovers over the links */
+a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+#banner {
+	background-image: url("https://unsplash.it/1000/600/?image=1073");
+	padding: 150px 0;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	/* input 1, 2, or 4 values
+	1 is all around
+	2 is updown and leftright
+	4 is from top clockwise
+	*/
+}
+
+/* to target something inside something else */
+
+#banner h1 {
+	color: white;
+}
+
+#banner p {
+	font-size: 15px;
+	opacity: 0.7;
+}
+
+.card {
+	text-align: center;
+	padding: 50px;
+}
+
+#footer {
+	background-color: #175676;
+	padding: 20px;
+}
+
+#footer a {
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+
+#footer a:hover {
+	color: yellow;
+}

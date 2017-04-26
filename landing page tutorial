@@ -1,0 +1,77 @@
+landing page
+
+should have
+clear proposition value
+clean design
+call-to-action (typically a link, or a  form to get information, the purpose of the landing page)
+CRM first milestone - customer relationship management system - how to deal with the customer
+
+landing page tools
+launchrock
+stikingly
+squarespace
+unbounce
+
+website three parts
+html - content
+css - style
+js - dynamic stuff and usability stuff
+
+css libraries
+bootstrap (by twitter)
+material design (by google)
+
+html always comes first
+they have some implicit rules sthat can be parsed by the web browser
+
+in html, the <head> is where the intelligence lies -  meta data, stuff that you don't show on the page e.g. font size
+
+core syntax
+<element attr="string"> [...] </element>
+
+title sizes 
+h1 to h6
+
+paragraph
+p
+
+em = italic <em> content </em>
+strong = bold <strong> content </strong>
+
+for images, there are no closing tags
+<img src="where.png" alt="text for when the images don't show or when a blind person 'hears' the image instead of seeing it">
+
+css styles
+h1 {
+	color: orange;
+
+}
+
+div system, box model / wrapping into modules, sorta
+<div> all the content inside </div>
+settings:
+width
+height
+margin (space between boxes)
+padding (internal space in the content)
+border
+border-radius
+
+using id and class
+in html, under <element id="id_name">
+in css, use #id_name
+
+in html <element class="class_name">
+in css, use .id_name
+
+id is used a single time
+class is used repeatedly
+
+responsiveness = webpages that change according to devices
+usually start with mobile first
+
+in bootstrap:
+<div class="container"> # defines the columns. you always divide from 12. 12 is a set number
+	<div class="row">content</div>
+		<div class="col-xs-6 col-sm-3">content</div> # this defines what happens in smartphones, and then tablets
+		# they are all divisions of 12. 
